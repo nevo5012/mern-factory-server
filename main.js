@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/api/employee',employeeControler);
 
-app.listen(process.env.PORT|| 8000);
+app.listen(process.env.PORT || 8000)
 console.log('Server is up on localhost, listening to port 8000');
 
 app.get("/read",(req, res) =>{
